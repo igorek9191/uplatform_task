@@ -1,0 +1,11 @@
+uri: http://localhost/
+port: 80
+login: admin
+password: admin
+endpoint:
+  auth: /user/token
+  product:
+    post: /product
+    patch: /product/{id}
+    get: /product/{id}
+    delete: /product/{id}
